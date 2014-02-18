@@ -1,0 +1,65 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+ /* Banner */
+.section-header{
+  background-image: url("../images/banner.png");
+  background-repeat: repeat-x;
+  background-position: center top;
+  padding: 0px 30px;
+}
+/* This positions the navigation menu, by pushing it down. */
+.zone-branding-wrapper{
+  height: 130px;
+}
+.logo-img {
+  margin: 45px 0px 0px 105px;
+}
+ul.inline li {
+  padding: 0 1em;
+}    
+body {
+  font-family: 'Open Sans', 'Verdana', sans-serif;
+  font-size: 1em;
+  color: #343434;
+  line-height: 2.6em;
+  font-weight: 300; 
+  letter-spacing: .07em;
+  background-color: white;   
+}
+/* This is for the page headlines, and subheads. */
+.title,
+h2.node-title,
+h1,
+h3 {
+  font-family: 'Open Sans', 'Verdana', sans-serif;
+  font-weight: 300; 
+  color: #47B8D6; 
+  letter-spacing: .05em;
+  text-align: center;
+  line-height: 120%;
+}
+.title,
+h2.node-title,
+h1{
+  font-size: 2.5em;  
+  padding: 30px 130px 0px;
+}
+h3{
+  font-size: 1.6em;  
+  padding: 0px 30px 0px;
+}
+/* This is the left & right margin for all the pages, including the forms. */
+.block-system-main{
+  padding: 0px 65px;
+}
+/* This is positioning the footer links. */
+.zone-footer.container-24{
+  width: 830px;
+}
+.container-24 .region-footer-first.grid-12 {
+  width: 390px;
+}
+.container-24 .region-footer-second.grid-12 {
+  width: 390px;
+}

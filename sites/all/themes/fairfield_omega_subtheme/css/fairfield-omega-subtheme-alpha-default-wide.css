@@ -1,0 +1,56 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+body {
+	background-color: white;
+}
+.title,
+h2.node-title,
+h1{
+  font-size: 2.5em;  
+  padding: 30px 270px 0px;
+}
+/* This is the left & right margin for all the pages, including the forms. */
+.block-system-main{
+  padding: 0px 130px;
+}
+/* This is the background images for the expertise page. */
+.page-node-4 .region-content{
+  background-image: url("../images/gears_wide.jpg");
+  background-repeat: no-repeat;
+  background-position: 3% 180px;
+}
+.page-node-4 .zone-content
+ {
+  background-image: url("../images/sketch.jpg");
+  background-repeat: no-repeat;
+  background-position: 75% 100%;
+}
+/* This is the background image for the home and values page. */
+.page-node-2 .zone-content,
+.page-node-1 .zone-content
+ {
+  background-image: url("../images/sketch.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+/* This is the background images for the strategy page. */
+.page-node-3 .region-content{
+  background-image: url("../images/gears_tall.jpg");
+  background-repeat: no-repeat;
+  background-position: 3% 200px;
+}
+.page-node-3 .zone-content
+ {
+  background-image: url("../images/sketch.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+/* This is positioning the footer links. */
+.zone-footer.container-24{
+	width: 940px;
+}
+.container-24 .region-footer-first.grid-12 {
+	width: 450px;
+}
+.container-24 .region-footer-second.grid-12 {
+	width: 450px;
+}

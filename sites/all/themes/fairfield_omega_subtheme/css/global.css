@@ -1,0 +1,144 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/* Banner */
+.section-header{
+  background-image: url("../images/bannermobile.png");
+  background-repeat: repeat-x;
+  background-position: center top;
+  padding: 0px 0px;
+}
+body {
+  font-family: 'Open Sans', 'Verdana', sans-serif;
+  font-size: .7em;
+  color: #343434;
+  line-height: 1.8em;
+  font-weight: 300; 
+  letter-spacing: .03em;
+  background-color: yellow;   
+}
+a, a:link, a:visited, a:hover{
+  text-decoration: none;
+}
+a:link{
+  color: #286778;
+}
+a:hover, a:visited{
+  color: #3993AB;
+}
+p,
+h1,
+h3 {
+  margin-bottom: 8px;
+}
+/* webform styling */
+label {
+  font-family: 'Open Sans', 'Verdana', sans-serif;
+  font-size: 1em;
+  font-weight: 400; 
+  letter-spacing: .06em;
+}
+/* This positions the navigation menu, by pushing it down. */
+.zone-branding-wrapper{
+	height: 140px;
+}
+.logo-img {
+	margin: 45px 0px 0px 70px;
+}
+.mean-container .mean-bar{
+  background-color: yellow;
+}
+/* This is for the navigation menu across the top. */
+.zone-menu  {
+  text-align: center;
+}
+.zone-menu a {
+	color: #033060;
+  font-size: .9em;
+	text-decoration: none;
+	font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+}
+.zone-menu a:hover,
+.zone-menu a.active {
+	color: #ffffff;
+}
+
+ul.inline li {
+  padding: 0em .4em;
+}    
+.navigation	{
+	text-decoration: none;
+}
+/* This is for the page headlines, and subheads. */
+.title,
+h2.node-title,
+h1,
+h3 {
+  font-family: 'Open Sans', 'Verdana', sans-serif;
+  font-weight: 300; 
+  color: #3993AB; 
+  letter-spacing: .05em;
+	text-align: center;
+  line-height: 130%;
+}
+.title,
+h2.node-title,
+h1{
+  font-size: 2em;  
+  padding: 10px 30px 0px;
+}
+h3{
+  font-size: 1.5em;  
+  padding: 0px 30px 0px;
+}
+/* This is for the home page headline, which is an article. */
+h2.node-title a{
+  text-decoration: none;
+}
+/* This is for the bullet list on the experience page. */
+.node ul{
+  margin: -4px 0px 0px 10px; 
+  list-style-type: circle;
+}
+/* This is the left & right margin for all the pages, including the forms. */
+.block-system-main {
+  padding: 0px 30px;
+}
+
+/* This is the white space from the end of paragraph to the footer bar at the bottom of all pages. */
+.section-content{
+  margin-bottom: 40px;
+}
+/* This is the footer info all pages. */
+.region-footer-first-inner{
+  text-align: left;
+}
+.region-footer-second-inner{
+  text-align: right;
+}
+.region-footer-second-inner, 
+.region-footer-first-inner{
+  font-size: .6em;
+  height: 40px;
+  color: #47B8D6;
+  width: 100%;
+}
+.zone-footer-wrapper{
+  background-color: #161665;
+  height: 40px;
+}
+.zone-footer a,
+.zone-footer a:link,
+.zone-footer a:visited,
+.zone-footer a:hover {
+  color: #3993AB; 
+}
+/* This is positioning the footer links. */
+.container-24 .region-footer-first.grid-12 {
+  width: 200px;
+}
+.container-24 .region-footer-second.grid-12 {
+  width: 200px;
+}
+
