@@ -4,23 +4,22 @@
  *  and widescreen CSS files as appropriate. */
 /* Banner */
 .section-header{
-  background-image: url("../images/bannermobile.png");
+  background-image: url("../images/banner.png");
   background-repeat: repeat-x;
   background-position: center top;
   padding: 0px 0px;
-}
-body {
+}body {
   font-family: 'Open Sans', 'Verdana', sans-serif;
   font-size: .85em;
-  color: #343434;
-  line-height: 2.3em;
+  line-height: 2.1em;
   font-weight: 300; 
   letter-spacing: .05em;  
   background-color: white;
 }
 /* This positions the navigation menu, by pushing it down. */
 .zone-branding-wrapper{
-  height: 140px;
+  height: 138px;
+  background-image: none;
 }
 ul.inline li {
   padding: 0 .5em;
@@ -30,6 +29,7 @@ ul.inline li {
 }
 .zone-menu a {
   letter-spacing: .3em;
+}
 /* This is for the bullet list on the experience page. */
 .node ul{
   margin: -4px 0px 0px 40px; 
@@ -37,34 +37,46 @@ ul.inline li {
 .title,
 h2.node-title,
 h1{
-  font-size: 1.7em;  
-  padding: 20px 150px 0px;
+  font-size: 2em;  
+  padding: 20px 130px 0px;
 }
 h3{
-  font-size: 1.4em;  
+  font-size: 1.5em;  
   padding: 0px 10px 0px;
 }
 /* This is the left & right margin for all the pages, including the forms. */
 .block-system-main{
   padding: 0px 30px;
 }
-.page-node-1 .zone-content {
-  background-image: url("../images/gears_wide.jpg");
-  background-repeat: no-repeat;
-  background-position: 0% 80px;
+/* This is the white space from the end of paragraph to the footer bar at the bottom of all pages. */
+.section-content{
+  margin-bottom: 20px;
 }
-/* This is the background image for the home, expertise and value pages. */
+/* This is the background image for the home and values page. */
 .page-node-2 .zone-content,
-.page-node-4 .zone-content {
+.page-node-1 .zone-content
+ {
   background-image: url("../images/sketch.jpg");
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
+/* This is the background images for the expertise page. */
+.page-node-4 .region-content{
+  background-image: url("../images/gears_wide.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 40px;
+}
+.page-node-4 .zone-content
+ {
+  background-image: url("../images/sketch.jpg");
+  background-repeat: no-repeat;
+  background-position: 85% 100%;
+}
 /* This is the background images for the strategy page. */
-.page-node-3 .region-content {
+.page-node-3 .region-content{
   background-image: url("../images/gears_tall.jpg");
   background-repeat: no-repeat;
-  background-position: 1% 200px;
+  background-position: 0% 30px;
 }
 .page-node-3 .zone-content
  {
@@ -72,7 +84,21 @@ h3{
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
-/* This is positioning the footer links. */
+/* This is positioning the footer links, and also controls the whole width of the top banner.*/
+.zone-footer.container-24{
+  width: 70%;
+}
+.container-24 .region-footer-first.grid-12 {
+  float: left;
+  width: 40%;
+  margin: 0px 2%;
+}
+.container-24 .region-footer-second.grid-12 {
+  float: right;
+  width: 52%;
+  margin: 0px 2%;
+}
+/* This is positioning the footer links.
 .zone-footer.container-24{
   width: 660px;
 }
@@ -82,7 +108,4 @@ h3{
 .container-24 .region-footer-second.grid-12 {
   width: 300px;
 }
-/* This is the white space from the end of paragraph to the footer bar at the bottom of all pages. */
-.section-content{
-  margin-bottom: 20px;
-}
+ */

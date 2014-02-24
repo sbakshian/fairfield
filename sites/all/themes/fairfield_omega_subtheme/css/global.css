@@ -1,34 +1,28 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 /* Banner */
-.section-header{
-  background-image: url("../images/bannermobile.png");
-  background-repeat: repeat-x;
-  background-position: center top;
-  padding: 0px 0px;
-}
 body {
   font-family: 'Open Sans', 'Verdana', sans-serif;
   font-size: .7em;
   color: #343434;
-  line-height: 1.8em;
+  line-height: 1.7em;
   font-weight: 300; 
   letter-spacing: .03em;
-  background-color: yellow;   
 }
 a, a:link, a:visited, a:hover{
   text-decoration: none;
+  font-weight: 400;   
 }
 a:link{
-  color: #286778;
+  color: #40a8dc;
 }
 a:hover, a:visited{
-  color: #3993AB;
+  color: #40a8dc;
 }
 p,
 h1,
 h3 {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 /* webform styling */
 label {
@@ -40,12 +34,28 @@ label {
 /* This positions the navigation menu, by pushing it down. */
 .zone-branding-wrapper{
 	height: 140px;
+  background-image: url("../images/bannermobile.png");
+  background-repeat: repeat-x;
+  background-position: center top;
+  padding: 0px 0px;
+}
+.region-branding{
+  width: 276px;
+  margin: 0px auto;
 }
 .logo-img {
-	margin: 45px 0px 0px 70px;
+  margin: 45px 0px 0px 0px;
+  width: 276px;
 }
 .mean-container .mean-bar{
-  background-color: yellow;
+  background-color: #61C2E2;
+  height: 175px;
+  margin-bottom: 20px;
+}
+.mean-container .mean-nav ul li a {
+  background-color: #0e3c7a;
+  text-align: center;
+  letter-spacing: .3em;
 }
 /* This is for the navigation menu across the top. */
 .zone-menu  {
@@ -108,7 +118,7 @@ h2.node-title a{
 
 /* This is the white space from the end of paragraph to the footer bar at the bottom of all pages. */
 .section-content{
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 /* This is the footer info all pages. */
 .region-footer-first-inner{
@@ -121,24 +131,29 @@ h2.node-title a{
 .region-footer-first-inner{
   font-size: .6em;
   height: 40px;
-  color: #47B8D6;
-  width: 100%;
+  color: #61C2E2;
 }
 .zone-footer-wrapper{
-  background-color: #161665;
+  background-color: #0e3c7a;
   height: 40px;
 }
 .zone-footer a,
 .zone-footer a:link,
 .zone-footer a:visited,
 .zone-footer a:hover {
-  color: #3993AB; 
+  color: #61C2E2; 
 }
-/* This is positioning the footer links. */
+/* This is positioning the footer links, and also controls the whole width of the top banner.*/
+.zone-footer.container-24{
+  width: 100%;
+}
 .container-24 .region-footer-first.grid-12 {
-  width: 200px;
+  float: left;
+  width: 40%;
+  margin: 0px 2%;
 }
 .container-24 .region-footer-second.grid-12 {
-  width: 200px;
+  float: right;
+  width: 52%;
+  margin: 0px 2%;
 }
-

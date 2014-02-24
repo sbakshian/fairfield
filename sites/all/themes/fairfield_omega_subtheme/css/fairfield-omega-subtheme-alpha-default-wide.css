@@ -5,8 +5,10 @@ body {
 .title,
 h2.node-title,
 h1{
-  font-size: 2.5em;  
-  padding: 30px 270px 0px;
+  padding: 30px 290px 0px;
+}
+.logo-img {
+  margin: 45px 0px 0px 105px;
 }
 /* This is the left & right margin for all the pages, including the forms. */
 .block-system-main{
@@ -44,7 +46,7 @@ h1{
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
-/* This is positioning the footer links. */
+/* This is positioning the footer links.
 .zone-footer.container-24{
 	width: 940px;
 }
@@ -52,5 +54,6 @@ h1{
 	width: 450px;
 }
 .container-24 .region-footer-second.grid-12 {
-	width: 450px;
+  width: 450px;
 }
+ */

@@ -10,10 +10,10 @@
 }
 /* This positions the navigation menu, by pushing it down. */
 .zone-branding-wrapper{
-  height: 130px;
+  height: 134px;
 }
 .logo-img {
-  margin: 45px 0px 0px 105px;
+  margin: 45px 0px 0px 10px;
 }
 ul.inline li {
   padding: 0 1em;
@@ -22,7 +22,7 @@ body {
   font-family: 'Open Sans', 'Verdana', sans-serif;
   font-size: 1em;
   color: #343434;
-  line-height: 2.6em;
+  line-height: 2.2em;
   font-weight: 300; 
   letter-spacing: .07em;
   background-color: white;   
@@ -34,7 +34,6 @@ h1,
 h3 {
   font-family: 'Open Sans', 'Verdana', sans-serif;
   font-weight: 300; 
-  color: #47B8D6; 
   letter-spacing: .05em;
   text-align: center;
   line-height: 120%;
@@ -42,7 +41,7 @@ h3 {
 .title,
 h2.node-title,
 h1{
-  font-size: 2.5em;  
+  font-size: 2.2em;  
   padding: 30px 130px 0px;
 }
 h3{
@@ -53,7 +52,39 @@ h3{
 .block-system-main{
   padding: 0px 65px;
 }
-/* This is positioning the footer links. */
+/* This is the background images for the expertise page. */
+.page-node-4 .region-content{
+  background-image: url("../images/gears_wide.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 125px;
+}
+.page-node-4 .zone-content
+ {
+  background-image: url("../images/sketch.jpg");
+  background-repeat: no-repeat;
+  background-position: 75% 100%;
+}
+/* This is the background image for the home and values page. */
+.page-node-2 .zone-content,
+.page-node-1 .zone-content
+ {
+  background-image: url("../images/sketch.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+/* This is the background images for the strategy page. */
+.page-node-3 .region-content{
+  background-image: url("../images/gears_tall.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 230px;
+}
+.page-node-3 .zone-content
+ {
+  background-image: url("../images/sketch.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+/* This is positioning the footer links.
 .zone-footer.container-24{
   width: 830px;
 }
@@ -63,3 +94,4 @@ h3{
 .container-24 .region-footer-second.grid-12 {
   width: 390px;
 }
+ */
